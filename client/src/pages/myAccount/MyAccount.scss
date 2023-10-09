@@ -1,0 +1,61 @@
+.myaccount{
+    //background-color: antiquewhite;
+    height: 1000px;
+    h1{
+        font-size: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        margin-left: 133px;
+        //background-color: aquamarine;
+        display: flex;  
+
+        .left{
+            display: flex;
+            flex-direction: column  ;
+            //background-color: rgb(51, 47, 42);
+            img{
+                border-radius: 50%;
+            }
+            .btn{
+
+                border-color: teal;
+                color: white;
+                background-color:  teal ;
+                font-size: 28px;
+                border-radius: 11px;
+                margin-left: 100px;
+                width: 300px;
+                height: 50px;
+                margin-top: 70px;
+            }
+        }
+        .right{
+            width: 700px;
+            margin-left: 170px;
+            margin-top: 30px;
+            //background-color: aliceblue;
+
+            h1{
+                font-size: 33px;
+
+            }
+
+            .change{
+                .butn{
+                    border-color: teal;
+                    color: white;
+                    background-color:  teal ;
+                    font-size: 28px;
+                    border-radius: 11px;
+                    margin-left: 100px;
+                    width: 500px;
+                    height: 50px;
+                    margin-top: 70px;
+                }
+            }
+        }
+    }
+
+}

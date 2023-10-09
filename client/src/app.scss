@@ -1,0 +1,16 @@
+* {
+  .link {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+@font-face {
+  font-family: "Circular";
+  src: url("../fonts/AirbnbCereal_W_Bd.otf") format("otf"),
+    url("../fonts/AirbnbCereal_W_Blk.otf") format("otf"),
+    url("../fonts/AirbnbCereal_W_Bd.otf") format("otf"),
+    url("../fonts/AirbnbCereal_W_XBd.otf") format("otf");
+  font-weight: bold;
+  font-style: normal;
+}

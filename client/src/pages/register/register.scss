@@ -1,0 +1,89 @@
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  .register {
+    max-width: 1078px;
+    width: 1000px;
+    display: flex;
+    border: 1px solid #e9ecef;
+    border-radius: 115px;
+    /* box-shadow: 1px 3px 10px #e9ecef; */
+    background-color: white;
+
+    .col-1 {
+      margin: auto;
+      width: 900px;
+      padding: 3em 0;
+
+      span {
+        color: #adb5bd;
+      }
+      .input {
+        max-width: 250px;
+        width: 100vw;
+        margin: 2em auto;
+      }
+    
+    .btn1 {
+      background-color: #003049;
+      color: #e9ecef;
+      height: 50px;
+      padding: 0px 20px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+    #form {
+      max-width: 320px;
+      width: 100vw;
+      margin: 2em auto;
+    }
+
+    #form > input,
+    .btn {
+      border: 1px solid #e9ecef;
+      padding: 0.9em 1em;
+      margin-left: 13px;
+    }
+
+    #form > input:focus {
+      outline: none;
+    }
+
+    #form > .btn {
+      background-color: #003049;
+      color: #e9ecef;
+      font-size: 1em;
+      cursor: pointer;
+    }
+
+    .flex {
+      display: flex;
+      gap: 1em;
+    }
+
+    .flex-col {
+      flex-direction: column;
+    }}
+
+    .register .col-2 .lottie {
+      width: 180px;
+      height: 50%;
+      object-fit: cover;
+      align-self: flex-end;
+      border-radius: 115px;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      display: none;
+    }
+
+    //@media screen and (min-width: 860px)  {
+    .register .col-2 .lottie {
+      display: initial;
+    }
+    //}
+  }
+}

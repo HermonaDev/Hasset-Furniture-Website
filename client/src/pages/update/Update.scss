@@ -1,0 +1,46 @@
+.update{
+    //background-color: aliceblue;
+    height: 700px;
+    display: flex;
+
+    .container{
+        color: white;
+        background-color: rgb(110, 110, 110);
+        height: 500px;
+        width: 700px;
+        display: flex;
+        justify-content: center;
+        margin : 100px;
+        margin-left: 650px;
+
+        .form{
+            padding-top: 20px;
+            //background-color: antiquewhite;
+            width: 600px;
+            height: 330px;
+            .inp{
+                background-color: white;
+                color: black;
+                font-size: 23px;
+            }
+            label{
+                font-size: 40px;
+            }
+            input{
+                font-size: 23px;
+                width: 550px;
+                height: 30px;
+            }
+            .btn{
+                color: white;
+                background-color: rgb(33, 28, 100);
+                border-radius: 11px;
+                margin-left:150px ;
+                font-size: 33px;
+                height: 50px;
+                width: 300px;
+                cursor: pointer;
+            }
+        }
+    }
+}

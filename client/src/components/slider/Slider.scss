@@ -1,0 +1,37 @@
+.slider {
+  height: 750px;
+  width: 90%;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 12px;
+  font-family: cursive;
+  margin-bottom: 12px;
+}
+p {
+  font-size: 25px;
+  text-align: center;
+}
+
+.item {
+  min-height: 40rem;
+  min-width: 30%;
+  padding: 40px;
+
+  img {
+    width: 100%;
+    height: 80%;
+    border-radius: 2rem;
+    pointer-events: none;
+  }
+}
+.carousal {
+  cursor: grab;
+  overflow: hidden;
+  //background-color: rgb(214, 130, 21);
+}
+.inner-carousal {
+  display: flex;
+  //background-color: antiquewhite;
+}

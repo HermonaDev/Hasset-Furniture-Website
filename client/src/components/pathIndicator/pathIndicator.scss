@@ -1,0 +1,18 @@
+.path-indicator {
+  
+  display: flex;
+  color: gray;
+  padding: 0% 0%;
+  justify-content: left;
+}
+
+.path-indicator__step {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.path-indicator__step.active {
+  text-decoration: underline;
+  color: #4e8b93;
+}

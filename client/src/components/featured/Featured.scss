@@ -1,0 +1,68 @@
+.featured{
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url("/img/hero-bg.png");
+    background-size:cover;
+    color: white;
+    .container{
+        width: 100%;
+        display: flex;
+        padding: 0% 10%;
+        justify-content: center;
+        .left{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 30px;
+            padding-bottom: 100px;
+            h1{
+                font-size: 90px;
+                padding-left: 15%;
+            }
+            h2{
+                font-family: cursive;
+                font-size: 32px;
+                padding-top: 10px;
+                padding-bottom: 40px;
+                padding-left: 100px;
+            }
+            .search{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: whitesmoke;
+                border-radius: 5px;
+             //   margin-left: 200px;
+                .searchInput{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    img{
+                        width: 20px;
+                        height: 20px;
+                        margin: 10px;
+                    }
+
+                    input{
+                        border: none;
+                        outline: none;
+                        background-color: whitesmoke;
+                    }
+                }
+                button{
+                    width: 120px;
+                    font-size: 20px;
+                    height: 50px;
+                    border: none;
+                    background-color: bisque;
+                    color: rgb(124, 107, 107);
+                    cursor: pointer;
+
+                }
+
+            }
+        }
+    }
+}

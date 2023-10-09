@@ -1,0 +1,58 @@
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.register {
+  max-width: 1078px;
+  width: 1000px;
+  display: flex;
+  border: 1px solid #e9ecef;
+  border-radius: 115px;
+  /* box-shadow: 1px 3px 10px #e9ecef; */
+  background-color: white;
+  .col-1 {
+    margin: auto;
+    padding: 3em 0;
+    .formw {
+      margin: 20px 40px;
+      input {
+        border: 1px solid #e9ecef;
+        padding: 0.6em 1em;
+        width: 350px;
+        margin-left: 13px;
+      }
+      .btn {
+        background-color: #003049;
+        color: #e9ecef;
+        padding: 10px 30px;
+        font-size: 1em;
+        cursor: pointer;
+        margin: 20px 0px;
+      }
+      span{
+        color: #adb5bd;
+      }
+    }
+  }
+}
+
+.register .col-2 .lottie {
+  width: 180px;
+  height: 50%;
+  object-fit: cover;
+  align-self: flex-end;
+  border-radius: 115px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: none;
+}
+
+//@media screen and (min-width: 860px)  {
+.register .col-2 .lottie {
+  display: initial;
+}
+//}

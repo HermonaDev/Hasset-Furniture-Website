@@ -1,0 +1,163 @@
+.wishlist{
+    .container{
+        //background-color: blue;
+        // margin-left: 130px;
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+        .top{
+            height: 333px;
+            width: 1000px;
+            margin-left: 250px;
+            text-align: center;
+            justify-content: center;
+            //background-color: green;
+            .fav{
+                font-size: 103px;
+            }
+            h1{
+                font-size: 60px;
+            }
+            .spn{
+                cursor: pointer;
+                font-size: 23px;    
+                margin-top: 30px;
+                justify-content: center;
+                display: flex;
+                //background-color: aliceblue;
+                gap: 60px;
+            }
+        }
+        .middle{
+            display: flex;
+            overflow: scroll;
+            width: 100%;
+            margin-top: 30px;
+            gap: 30px 200px;
+            flex-wrap: wrap;
+            .list0{
+                margin-top: 30px;
+                margin-bottom: 30px;
+                margin-left: 30px;
+                width: 450px;
+                display: flex;
+                //height: 300px;
+                //background-color: aqua;
+                .image{
+                    //background-color: beige;
+                    img{
+                        height: 100%;
+                        width: 220px
+                    }
+                }
+                .desc{
+                    margin-left: 20px;
+                    h1{
+                        font-size: 33px;
+                    }
+                    width: 350px;
+                    //background-color: aliceblue;
+                    font-size: 20px;
+                    
+                    .desc1{
+                        margin-bottom: 30px;
+                        width: 150%;
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    .desc2{
+                        margin-bottom: 30px;
+                        display: flex;
+                        width: 150%;
+                        justify-content: space-between;
+                    }
+                    .desc3{
+                        width: 150%;
+                        margin-bottom: 30px;
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    .desc4{
+                        margin-bottom: 30px;
+                        width: 150%;
+                        display: flex;
+                        justify-content: space-between;
+                        input{
+                            width: 70px;
+                            border-top: none;
+                            border-left: none;
+                            border-right: none;
+                        }
+                    }
+                    .desc5{
+                        display: flex;
+                        justify-content: space-between;
+                        text-align: center;
+                        width: 150%;
+                        margin-bottom: 13px;
+                        button{
+                            background-color: teal;
+                            color: white;
+                            width: 173px;
+                            border: none;
+                            cursor: pointer;
+                            border-radius: 15px;
+                            font-size: 23px;
+                        }
+                        .delete{
+                            cursor: pointer;
+                            font-size: 33px;
+                        }
+                    }
+                }
+            }
+        }
+        .bottom{
+            display: flex;
+            gap: 20px;
+            justify-content: end;
+            margin-top: 30px;
+            //background-color: rgb(85, 145, 145);
+            .ask{
+                button{
+                    background-color: rgb(233, 233, 233);
+                    border-radius: 15px;
+                    width: 230px;
+                    border: none;
+                    cursor: pointer;
+                }
+                .for{
+                    .email{
+                        margin-right: 13px;
+                    }
+                    font-size: 20px;
+                    display: flex;
+                }
+            }
+            .add{
+                button{
+                    cursor: pointer;
+                    color: white;
+                    border-radius: 15px;
+                    border: none;
+                    background-color: teal;
+                    font-size: 20px;
+                    width: 203px;
+                }
+            }
+        }
+    }
+}
+.middle::-webkit-scrollbar {
+    width: 8px;
+    height: 0px;
+  }
+  
+  .middle::-webkit-scrollbar-track {
+    background: white; /* color of the tracking area */
+  }
+  
+  .middle::-webkit-scrollbar-thumb {
+    background-color: rgba(198, 198, 202, 0.575); /* color of the scroll thumb */
+    border-radius: 10px; /* roundness of the scroll thumb */
+  }

@@ -1,0 +1,304 @@
+.cart-page {
+  margin: 0px 30px;
+  .main-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 50px;
+    .header {
+      display: flex;
+      justify-content: space-between;
+      color: rgba(0, 0, 0, 0.922);
+      background-color: #a2a4a521;
+      box-shadow: inset;
+      height: 180px;
+      .btn {
+        background-color: white;
+        height: 60px;
+        color: black;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        font-size: 24px;
+        width: 300px;
+        padding-bottom: 50px;
+        margin-top: 80px;
+
+        &:hover {
+          background-image: linear-gradient(#4f97db, #fff);
+        }
+      }
+
+      .buton {
+        background-color: #007bff;
+        height: 70px;
+        padding: 0px 0px 30px 0px;
+        color: white;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        font-size: 24px;
+        width: 300px;
+        margin-top: 80px;
+        &:hover {
+          background-image: linear-gradient(#fff, #4f97db);
+        }
+      }
+      h1 {
+        text-align: center;
+        padding-top: 40px;
+      }
+      .arrow1 {
+        font-size: 22px;
+        padding: 0px 0px 0px 10px;
+      }
+      .arrow2 {
+        font-size: 22px;
+        padding: 20px 0px 0px 10px;
+      }
+    }
+    .flex {
+      height: min-content;
+      overflow: scroll;
+      display: flex;
+      justify-content: space-between;
+      .product {
+        flex: 3;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        margin-left: 30px;
+        color: black;
+        margin-top: 50px;
+        .item {
+          display: flex;
+          height: 50vh;
+          .head {
+            margin-left: 65px;
+            font-size: 24px;
+            text-decoration: underline;
+            margin-top: 20px;
+            width: 100%;
+            th {
+              background-color: white;
+            }
+          }
+
+          tbody {
+            // height: 200px;
+            tr {
+              // width: auto;
+              .idd {
+                font-size: 12px;
+                padding-right: 20px;
+              }
+              .img {
+                width: 220px;
+                height: 250px;
+                padding: 0px 30px;
+                img {
+                  width: 220px;
+                  height: 200px;
+                  object-fit: fill;
+                  border-radius: 5px;
+                }
+              }
+              &:hover {
+                transform: scale(1.0425);
+                background-color: rgba(222, 222, 212, 0.347);
+              }
+              .quantity {
+                width: 150px;
+                text-align: center;
+                padding: 0px 20px;
+              }
+              .price {
+                width: 150px;
+                text-align: center;
+              }
+              .fav {
+                color: gray;
+                height: 40px;
+                margin-left: 0%;
+                padding: 0px 25px;
+                width: 50px;
+                cursor: pointer;
+
+                &:active {
+                  color: black;
+                }
+              }
+              button {
+                font-size: 35px;
+                cursor: pointer;
+                border: 5px;
+                background-color: #fff;
+                width: 100px;
+                height: 40px;
+                border-radius: 5px;
+                color: rgb(222, 45, 45);
+
+                &:hover {
+                  background-color: red;
+                  color: white;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .pay {
+        flex: 1;
+        .make {
+          border: 1px solid rgb(226, 224, 224);
+          border-radius: 15px;
+          display: flex;
+          height: 150px;
+          width: 330px;
+          margin-top: 200px;
+          margin-left: 5px;
+
+          .coupon {
+            margin-top: 20px;
+            span {
+              margin-left: 33px;
+              font-size: 23px;
+            }
+            input {
+              margin-top: 23px;
+              margin-left: 27px;
+              width: 200px;
+              border-radius: 0%;
+            }
+          }
+          button {
+            color: white;
+            font-size: 20px;
+            background-color: #007bff;
+            width: 73px;
+            height: 44px;
+            margin-top: 74.5px;
+            border-top-right-radius: 11px;
+            border-bottom-right-radius: 11px;
+            border: none;
+          }
+        }
+        .total {
+          display: flex;
+          flex-direction: column;
+          border: 1px solid rgb(226, 224, 224);
+          height: 330px;
+          width: 330px;
+          color: black;
+          margin-top: 30px;
+          margin-left: 9px;
+          border-radius: 10px;
+          .totalitem {
+            display: flex;
+            justify-content: space-between;
+            font-weight: 300;
+            font-size: 24px;
+            margin-top: 30px;
+            margin-left: 24px;
+            width: 290px;
+          }
+          .totalprice {
+            display: flex;
+            justify-content: space-between;
+            font-weight: 300;
+            font-size: 24px;
+            margin-top: 10px;
+            margin-left: 24px;
+            width: 290px;
+          }
+          .discounts {
+            font-weight: 300;
+            font-size: 23px;
+            margin-top: 14px;
+            margin-left: 29px;
+            width: 290px;
+            display: flex;
+            justify-content: space-between;
+          }
+          .totalpay {
+            width: 290px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 23px;
+            margin-top: 19px;
+            margin-left: 29px;
+
+            .spn {
+              font-weight: 900;
+              font-size: 28px;
+            }
+          }
+          hr {
+            margin-top: 50px;
+            margin-left: 25px;
+            width: 275px;
+          }
+        }
+        .images {
+          margin: 35px 18px 0px 18px;
+          display: flex;
+          justify-content: space-between;
+          img {
+            width: 60px;
+            border-radius: 6px;
+          }
+        }
+      }
+    }
+
+    .delivery {
+      cursor: pointer;
+      background-color: rgb(193, 223, 193);
+      color: rgb(0, 0, 0);
+      display: flex;
+      margin-top: 20px;
+      width: 73%;
+      height: 60px;
+      margin-left: 30px;
+      border-radius: 6px;
+
+      &:hover {
+        background-color: rgb(212, 224, 212);
+      }
+
+      .local {
+        //background-color: #007bff;
+        margin-left: 30px;
+        height: 40px;
+        width: 40px;
+        margin-top: 12px;
+        color: rgb(56, 196, 109);
+        font-size: large;
+
+        .loc {
+          font-size: 43px;
+        }
+      }
+
+      .spn {
+        color: rgb(7, 82, 36);
+        margin-left: 10px;
+        font-size: 23px;
+        margin-top: 20px;
+      }
+    }
+  }
+}
+.flex::-webkit-scrollbar {
+  width: 8px;
+  height: 0px;
+}
+
+.flex::-webkit-scrollbar-track {
+  background: white; /* color of the tracking area */
+}
+
+.flex::-webkit-scrollbar-thumb {
+  background-color: rgba(198, 198, 202, 0.575); /* color of the scroll thumb */
+  border-radius: 10px; /* roundness of the scroll thumb */
+}

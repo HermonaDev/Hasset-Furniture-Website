@@ -1,0 +1,474 @@
+.explore{   
+    background-size: cover;
+    margin-left: 6%;
+    margin-right: 6%;
+    //width: 1300px;
+
+    .container{
+        //display: flex;
+        flex-direction: column;
+        .head{
+            display: flex;
+            justify-content: center;    
+            font-size: 83px;
+        }
+        .top{
+            display: flex;
+            align-items: end;
+            background-image: url(https://www-article-com-blog.exactdn.com/blog/wp-content/uploads/2022/09/Sede-Counter-Stools-and-Seno-Round-Bar-Table-scaled.jpg?strip=all&lossy=1&ssl=1&w=900);
+            background-size: cover;
+            height: 870px;
+            margin-top: 3%;
+
+            .features{
+                max-width: 450px;
+                margin-bottom: 20px;
+                margin-left: 20px;
+                margin-right: 20px;
+                padding: 10px 20px 20px 20px;
+                border-radius: 0 20px 0 0;
+                background-color: rgba(255,255,255,.9);
+                width: calc(50% - 20px);
+            }
+            .entry{
+                h3{
+                    padding-bottom: 20px;
+                }
+                h2{
+                    font-family: "proxima-nova",sans-serif;
+                    color: #666;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    font-weight: 300;
+                    font-size: 1.6em;
+                    line-height: 1.3;
+                }
+                p{
+                    letter-spacing: .8px;
+                    margin: 8px 0 0 0;
+                    line-height: 1.3em;
+                    display: block;
+                    margin-block-start: 1em;
+                    margin-block-end: 1em;
+                    margin-inline-start: 0px;
+                    margin-inline-end: 0px;
+                    color: #666;
+                    font-family: "proxima-nova",sans-serif;
+                    font-weight: 300;
+                    font-size: 1rem;
+                }
+                button{
+                    font-size: 20px;
+                    background-color: inherit;
+                    border: none;
+                    border-radius: 5px;
+                    width: 32%;
+                }
+            }
+        }
+        .desc{
+            margin-left: 10%;
+            margin-right: 6%;
+            display: flex;
+            margin-top: 6%;
+
+            .item{
+                display: flex;
+                flex-direction: column;
+                flex: 2;
+
+                h1{
+                    font-size: 33px;
+                    font-family: "proxima-nova",sans-serif;
+                    margin-bottom: 3%;
+                }
+                h2{
+                    color: #666;
+                    text-transform: uppercase;
+                    background-color: transparent;
+                    letter-spacing: 1px;
+                    font-weight: 300;
+                    font-size: 1.3em;
+                    line-height: 1.3;
+                }
+                p{
+                    line-height: 1.3em;
+                    font-weight: 300;   
+                    display: block;
+                    margin-block-start: 1em;
+                    margin-block-end: 1em;
+                    margin-inline-start: 0px;
+                    margin-inline-end: 0px;
+                    font-size: 1.6em;
+                }
+                button{
+                    cursor: pointer;
+                    font-size: 20px;
+                    margin-top: 40px;
+                    background-color: inherit;
+                    border: none;
+                    border-radius: 5px;
+                    width: 32%;
+
+                    &:hover{
+                        background-color: rgb(134, 132, 132);
+                        color: white;
+                    }
+                }
+
+
+            }
+            .item1{
+                //display: flex;
+                flex: 3;
+                img{
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    width: 90%;
+                    height: 400px;
+                    float: left;
+                    overflow: hidden;
+                }
+            }
+        }
+
+
+        .desc1{
+            margin-left: 10%;
+            margin-right: 6%;
+            display: flex;
+            //margin-top: 6%;
+
+            .item{
+                display: flex;
+                flex-direction: column;
+                flex: 2;
+
+                h1{
+                    font-size: 33px;
+                    font-family: "proxima-nova",sans-serif;
+                    margin-bottom: 3%;
+                }
+                h2{
+                    color: #666;
+                    text-transform: uppercase;
+                    background-color: transparent;
+                    letter-spacing: 1px;
+                    font-weight: 300;
+                    font-size: 1.3em;
+                    line-height: 1.3;
+                }
+                p{
+                    line-height: 1.3em;
+                    font-weight: 300;   
+                    display: block;
+                    margin-block-start: 1em;
+                    margin-block-end: 1em;
+                    margin-inline-start: 0px;
+                    margin-inline-end: 0px;
+                    font-size: 1.6em;
+                }
+                button{
+                    cursor: pointer;
+                    font-size: 20px;
+                    margin-top: 40px;
+                    background-color: inherit;
+                    border: none;
+                    border-radius: 5px;
+                    width: 32%;
+
+                    &:hover{
+                        background-color: rgb(134, 132, 132);
+                        color: white;
+                    }
+                }
+
+
+            }
+            .item1{
+                //display: flex;
+                flex: 3;
+                img{
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    width: 90%;
+                    height: 400px;
+                    float: left;
+                    overflow: hidden;
+                }
+            }
+        }
+
+        .desc2{
+            margin-left: 10%;
+            margin-right: 6%;
+            display: flex;
+            //margin-top: 6%;
+
+            .item{
+                display: flex;
+                flex-direction: column;
+                flex: 2;
+
+                h1{
+                    font-size: 33px;
+                    font-family: "proxima-nova",sans-serif;
+                    margin-bottom: 3%;
+                }
+                h2{
+                    color: #666;
+                    text-transform: uppercase;
+                    background-color: transparent;
+                    letter-spacing: 1px;
+                    font-weight: 300;
+                    font-size: 1.3em;
+                    line-height: 1.3;
+                }
+                p{
+                    line-height: 1.3em;
+                    font-weight: 300;   
+                    display: block;
+                    margin-block-start: 1em;
+                    margin-block-end: 1em;
+                    margin-inline-start: 0px;
+                    margin-inline-end: 0px;
+                    font-size: 1.6em;
+                }
+                button{
+                    cursor: pointer;
+                    font-size: 20px;
+                    margin-top: 40px;
+                    background-color: inherit;
+                    border: none;
+                    border-radius: 5px;
+                    width: 32%;
+
+                    &:hover{
+                        background-color: rgb(134, 132, 132);
+                        color: white;
+                    }
+                }
+
+
+            }
+            .item1{
+                //display: flex;
+                flex: 2;
+                img{
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    width: 90%;
+                    height: 400px;
+                    float: left;
+                    overflow: hidden;
+                }
+            }
+        }
+
+        .desc3{
+            margin-left: 10%;
+            margin-right: 6%;
+            display: flex;
+            //margin-top: 6%;
+
+            .item{
+                display: flex;
+                flex-direction: column;
+                flex: 2;
+
+                h1{
+                    font-size: 33px;
+                    font-family: "proxima-nova",sans-serif;
+                    margin-bottom: 3%;
+                }
+                h2{
+                    color: #666;
+                    text-transform: uppercase;
+                    background-color: transparent;
+                    letter-spacing: 1px;
+                    font-weight: 300;
+                    font-size: 1.3em;
+                    line-height: 1.3;
+                }
+                p{
+                    line-height: 1.3em;
+                    font-weight: 300;   
+                    display: block;
+                    margin-block-start: 1em;
+                    margin-block-end: 1em;
+                    margin-inline-start: 0px;
+                    margin-inline-end: 0px;
+                    font-size: 1.6em;
+                }
+                button{
+                    cursor: pointer;
+                    font-size: 20px;
+                    margin-top: 40px;
+                    background-color: inherit;
+                    border: none;
+                    border-radius: 5px;
+                    width: 32%;
+
+                    &:hover{
+                        background-color: rgb(134, 132, 132);
+                        color: white;
+                    }
+                }
+
+
+            }
+            .item1{
+                //display: flex;
+                flex: 3;
+                img{
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    width: 90%;
+                    height: 400px;
+                    float: left;
+                    overflow: hidden;
+                }
+            }
+        }
+
+        .desc4{
+            margin-left: 10%;
+            margin-right: 6%;
+            display: flex;
+            //margin-top: 6%;
+
+            .item{
+                display: flex;
+                flex-direction: column;
+                flex: 2;
+
+                h1{
+                    font-size: 33px;
+                    font-family: "proxima-nova",sans-serif;
+                    margin-bottom: 3%;
+                }
+                h2{
+                    color: #666;
+                    text-transform: uppercase;
+                    background-color: transparent;
+                    letter-spacing: 1px;
+                    font-weight: 300;
+                    font-size: 1.3em;
+                    line-height: 1.3;
+                }
+                p{
+                    line-height: 1.3em;
+                    font-weight: 300;   
+                    display: block;
+                    margin-block-start: 1em;
+                    margin-block-end: 1em;
+                    margin-inline-start: 0px;
+                    margin-inline-end: 0px;
+                    font-size: 1.6em;
+                }
+                button{
+                    cursor: pointer;
+                    font-size: 20px;
+                    margin-top: 40px;
+                    background-color: inherit;
+                    border: none;
+                    border-radius: 5px;
+                    width: 32%;
+
+                    &:hover{
+                        background-color: rgb(134, 132, 132);
+                        color: white;
+                    }
+                }
+
+
+            }
+            .item1{
+                //display: flex;
+                flex: 2;
+                img{
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    width: 90%;
+                    height: 400px;
+                    float: left;
+                    overflow: hidden;
+                }
+            }
+        }
+
+        .desc5{
+            margin-left: 10%;
+            margin-right: 6%;
+            display: flex;
+            //margin-top: 6%;
+
+            .item{
+                display: flex;
+                flex-direction: column;
+                flex: 2;
+
+                h1{
+                    font-size: 33px;
+                    font-family: "proxima-nova",sans-serif;
+                    margin-bottom: 3%;
+                }
+                h2{
+                    color: #666;
+                    text-transform: uppercase;
+                    background-color: transparent;
+                    letter-spacing: 1px;
+                    font-weight: 300;
+                    font-size: 1.3em;
+                    line-height: 1.3;
+                }
+                p{
+                    line-height: 1.3em;
+                    font-weight: 300;   
+                    display: block;
+                    margin-block-start: 1em;
+                    margin-block-end: 1em;
+                    margin-inline-start: 0px;
+                    margin-inline-end: 0px;
+                    font-size: 1.6em;
+                }
+                button{
+                    cursor: pointer;
+                    font-size: 20px;
+                    margin-top: 40px;
+                    background-color: inherit;
+                    border: none;
+                    border-radius: 5px;
+                    width: 32%;
+
+                    &:hover{
+                        background-color: rgb(134, 132, 132);
+                        color: white;
+                    }
+                }
+
+
+            }
+            .item1{
+                //display: flex;
+                flex: 3;
+                img{
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    width: 90%;
+                    height: 400px;
+                    float: left;
+                    overflow: hidden;
+                }
+            }
+        }
+
+
+    }
+}
