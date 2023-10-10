@@ -1,15 +1,20 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "*.js",
-      "use": "@vercel/node"
-    }
-  ],
+  "name": "api",
   "routes": [
     {
       "src": "/(.*)",
       "dest": "/"
+    }],
+    "env":{
+        "MONGO_URL" :  "mongodb+srv://mona:T6M9w2aOmryTDadB@atlascluster.xrorlc3.mongodb.net/ecommerce?retryWrites=true&w=majority",
+        "SECRET_KEY" : "mona",
+        "STRIPE_KEY" : "sk_test_51Nlc7rK11NhiuscnoF6RhddPS0KsUN1mhVxuar0RybRFHUNbT3czvgw8wMaFmeLRgJBLEhMH2fUG8HVKrbAKGChG00VICk2EA0"
+    },
+  "builds": [
+    {
+      "src": "*.js",
+      "use": "@vercel/node"
     }
   ]
 }
