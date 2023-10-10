@@ -21,7 +21,7 @@ import PathIndicator from "../../components/pathIndicator/PathIndicator";
 import ImageGallery from "../../components/imageGallery/ImageGallery";
 import Container from "../../components/related/Container";
 import ColorSelector from "../../components/colorSelector/ColorSelector";
-import Rate from "../../components/Rate/Rate";
+import Rate from "../../components/rate/Rate";
 
 function Product({ product }) {
   const currentUser = JSON.parse(localStorage.getItem("currentUser"));
