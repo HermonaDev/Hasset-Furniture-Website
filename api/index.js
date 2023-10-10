@@ -11,13 +11,13 @@ const orderRoute = require("./routes/order");
 const stripeRoute = require("./routes/stripe");
 const cors = require("cors");
 
-dotenv.config();
 app.use(cors(
   {
-  origin: ["hassetfurniture.vercel.app"],
+  origin: ["hasset-backend-927xbvud8-hermonas-projects.vercel.app"],
   methods: ["POST","GET"],
   credentials: true}
   ))
+dotenv.config();
 mongoose
   .connect(process.env.MONGO_URL)
   .then(() => console.log("DB Connection Successful!"))
