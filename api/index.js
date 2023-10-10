@@ -18,7 +18,12 @@ mongoose
   .catch((err) => {
     console.log(err);
   });
-app.use(cors());
+  app.use(cors(
+    {
+    origin: ["hasset-backend-927xbvud8-hermonas-projects.vercel.app"],
+    methods: ["POST","GET"],
+    credentials: true}
+    ))
 app.use(express.json());
 app.use("/api/auth", authRoute);
 app.use("/api/users", userRoute);
