@@ -11,7 +11,7 @@
       },
     "builds": [
       {
-        "src": "api/client/dist/*",
+        "src": "dist/client/**",
         "use": "@vercel/static-build"
       }
     ]
