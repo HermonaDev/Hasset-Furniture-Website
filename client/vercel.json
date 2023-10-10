@@ -1,15 +1,18 @@
 {
     "version": 2,
-    "builds": [
-      {
-        "src": "*.js",
-        "use": "@vercel/node"
-      }
-    ],
+    "name": "client",
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "/"
+        "dest": "index.html"
+      }],
+      "env":{
+        "API_URL":"https://vercel.com/hermonas-projects/hasset-backend/GVEXErAvj7T5jYJJVcj1WuMtC5Eg"
+      },
+    "builds": [
+      {
+        "src": "api/client/dist/*",
+        "use": "@vercel/static"
       }
     ]
   }
