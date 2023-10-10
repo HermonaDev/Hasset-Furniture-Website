@@ -14,7 +14,7 @@ const cors = require("cors");
 dotenv.config();
 app.use(cors(
   {
-  origin: ["hasset-backend-927xbvud8-hermonas-projects.vercel.app"],
+  origin: ["hassetfurniture.vercel.app"],
   methods: ["POST","GET"],
   credentials: true}
   ))
