@@ -22,7 +22,7 @@ const cors = require("cors");
 // Allow all origins
 app.use(cors());
 // Allow specific origin(s)
-app.use(cors({ origin: "https://hassetfurniture.vercel.app/" }));
+app.use(cors({ origin: "https://hassetfurniture.vercel.app" }));
 app.use(express.json());
 app.use("/api/auth", authRoute);
 app.use("/api/users", userRoute);
