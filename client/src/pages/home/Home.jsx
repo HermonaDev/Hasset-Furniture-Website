@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Home.scss";
 import Featured from "../../components/featured/Featured";
-import Gigs from "../gigs/Gigs";
+import Gigs from "../../components/gigs/Gigs";
 import Slider from "../../components/slider/Slider";
 import Lootie from "lottie-react";
 import animationData from "../../../public/Animation/animation_llge9v41.json";

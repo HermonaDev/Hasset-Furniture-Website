@@ -35,16 +35,3 @@ p {
   display: flex;
   //background-color: antiquewhite;
 }
-
-@media screen and (max-width: 480) {
-  h1{
-    color: black;
-  }
-  .item{
-    min-height: 20rem;
-    min-width: 10%;
-    img{
-      width: 50%;
-    }
-  }
-}

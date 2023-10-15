@@ -21,7 +21,7 @@ import PathIndicator from "../../components/pathIndicator/PathIndicator";
 import ImageGallery from "../../components/imageGallery/ImageGallery";
 import Container from "../../components/related/Container";
 import ColorSelector from "../../components/colorSelector/ColorSelector";
-import Rate from "../../components/Rate/Rate";
+import Rate from "../../components/rate/Rate";
 
 function Product({ product }) {
   const currentUser = JSON.parse(localStorage.getItem("currentUser"));
@@ -321,7 +321,7 @@ function Product({ product }) {
     const productIndex = updatedWishlist.products.findIndex(
       (product) => productId === productId
     );
-    updatedWishlist.products.splice(productIndex, 1);
+    updatedWishlist.products.splice(productIndex, 0);
     setWishlists(updatedWishlist);
 
     userRequest
