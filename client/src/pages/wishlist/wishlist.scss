@@ -151,13 +151,92 @@
 .middle::-webkit-scrollbar {
     width: 8px;
     height: 0px;
-  }
-  
-  .middle::-webkit-scrollbar-track {
-    background: white; /* color of the tracking area */
-  }
-  
-  .middle::-webkit-scrollbar-thumb {
-    background-color: rgba(198, 198, 202, 0.575); /* color of the scroll thumb */
-    border-radius: 10px; /* roundness of the scroll thumb */
-  }
+    }
+    
+    .middle::-webkit-scrollbar-track {
+        background: white; /* color of the tracking area */
+    }
+    
+    .middle::-webkit-scrollbar-thumb {
+        background-color: rgba(198, 198, 202, 0.575); /* color of the scroll thumb */
+        border-radius: 10px; /* roundness of the scroll thumb */
+    }
+@media screen and (max-width:480px) {
+    .wishlist{
+        .container{
+            margin-left: 30px;
+            .top{
+                margin-left: 150px;
+                width: 100px;
+                .fav{
+                    font-size: 50px;
+                }
+                h1{
+                    flex-direction: column;
+                    display: flex;
+                    font-size: 30px;
+                }
+            }
+            .middle{
+                
+                .list0{
+                    //background-color: antiquewhite;
+                    display: flex;  
+                    flex-direction: column;
+
+                    .image{
+                        img{
+                            margin-left: 80px;
+                            height: 70%;    
+                            width: 24   0px;
+                        }
+                    }
+                    .desc{
+                        margin-left: 0px;
+                        .desc1{
+                            //background-color: aqua;
+                            width: 300px;   
+                            margin-left: 30px;
+                            justify-content: space-between;
+                        }
+                        .desc2{
+                            //background-color: aqua;
+                            width: 300px;   
+                            margin-left: 30px;
+                            justify-content: space-between;
+                        }
+                        .desc3{
+                            //background-color: aqua;
+                            width: 300px;   
+                            margin-left: 30px;
+                            justify-content: space-between;
+                        }
+                        .desc5{
+                            //background-color: aqua;
+                            width: 300px;   
+                            margin-left: 30px;
+                            justify-content: space-between;
+                        }
+                    }
+                }
+            }
+            .bottom{
+                //background-color: aquamarine;
+                gap: 10px;
+                margin-left: 0px;
+                .ask{
+                    
+                    button{
+                        width: 190px;
+                        
+                    }
+                }
+                .add{
+                    button{
+                        width: 190px;
+                    }
+                }
+            }
+        }
+    }
+}

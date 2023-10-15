@@ -87,3 +87,23 @@
     //}
   }
 }
+@media screen and (max-width:480px) {
+  .App{
+    //background-color:#003049;
+    height: 50vh;
+    .register{
+      width: 450px;
+      .col-1{
+        .input{
+          input{
+            width: 100%;
+            margin-left: 0px;
+          }
+        }
+      }
+    }
+    .register .col-2 .lottie{
+      display: none;
+    }
+  }
+}

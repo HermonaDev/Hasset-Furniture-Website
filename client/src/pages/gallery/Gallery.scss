@@ -40,3 +40,18 @@
         transform: translateX(calc(-250px * 9));
     }
 }
+@media screen and (max-width:480px) {
+    .gallery{
+        padding: 0px;
+        h1{
+            font-size: 33px;
+        }
+        .slider{
+            height: 400px;
+            margin-top: 10px;
+        }
+        img{
+            width: 200px;
+        }
+    }
+}

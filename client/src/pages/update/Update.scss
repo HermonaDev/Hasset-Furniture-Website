@@ -44,3 +44,28 @@
         }
     }
 }
+@media screen and (max-width:480px) {
+    .update{
+        .container{
+            height: 300px;
+            width: 470px;
+            margin-left: 40px;
+            .form{
+                width: 400px;
+                label{
+                    font-size: 23px;
+                }
+                input{
+                    margin-left: 30px;
+                    width: 300px;
+                    height: 20px;
+                }
+                .btn{
+                    margin-left: 100px;
+                    font-size: 19px;
+                    width: 200px;
+                }
+            }
+        }
+    }
+}

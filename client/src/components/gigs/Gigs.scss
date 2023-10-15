@@ -40,3 +40,15 @@
         }
     }
 }
+@media screen and (max-width: 480px) {
+    .gigs{
+        .container{
+            padding-left: 30px;
+            padding-top: 400px;
+            button{
+                margin-left: 0%;
+            }
+        }
+    }
+    
+}

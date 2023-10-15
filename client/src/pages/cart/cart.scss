@@ -79,7 +79,7 @@
             margin-top: 20px;
             width: 100%;
             th {
-              background-color: white;
+              //background-color: white;
             }
           }
 
@@ -301,4 +301,85 @@
 .flex::-webkit-scrollbar-thumb {
   background-color: rgba(198, 198, 202, 0.575); /* color of the scroll thumb */
   border-radius: 10px; /* roundness of the scroll thumb */
+}
+
+@media screen and (max-width:480px) {
+  .cart-page{
+    margin-left: 0px;
+    .main-container{
+      margin-left: 0px;
+      // /width: 50%; 
+      .header{
+        width:480px;
+        //background-color: #007bff;
+        .btn{
+          
+          display: none;
+        }
+        .buton{
+          width: 200px;
+          font-size: 23px;
+        }
+        h1{
+          font-size: 40px;
+        }
+        .arrow1{
+          .spn{
+            display: none;
+          }
+        }
+      }
+      .flex{
+        //background-color: #007bff;
+        width: 487px;
+        .product{
+          //background-color: #4f97db;
+          margin-left: 10px;
+          margin-right: 10px;
+          .item{
+            .head{
+              //background-color: #007bff;
+                width: 3px;
+              margin-left: 0px;
+              th{
+                
+                font-size: 13px;
+              }
+              .th{
+                display: none;
+              }
+            }
+            .idd{
+              display: none;
+            }
+            tbody{
+              padding-left: 0px;
+              tr{
+                padding-left: 0px;
+                .img{
+                  padding-left: 0px;
+                  width: 100px;
+                  height: 100px;
+                  img{
+                    width: 100px;
+                    height: 100px;
+                  }
+                }
+                button{
+                  width: 70px;
+                  margin-left: 30px;
+                }
+              }
+            }
+          }
+        }
+        .pay{
+          display: none;
+        }
+      }
+      .delivery{
+        display: none;
+      }
+    }
+  }
 }

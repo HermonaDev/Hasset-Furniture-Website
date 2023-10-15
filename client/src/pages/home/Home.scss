@@ -1,9 +1,6 @@
 .home {
-  // width: 100%;
-  // height: 100%;
-  // margin: 0%;
-  // padding: 0%;
-  overflow-x: hidden;
+  width: 100%;
+  overflow-x : hidden;
   .filter {
     height: 80px;
     justify-content: center;
@@ -58,7 +55,7 @@
   .description1 {
     display: flex;
     justify-content: center;
-    margin: 300px 20px;
+    //margin: 300px 20px;
   
 
   .container2 {
@@ -128,6 +125,8 @@
   .slider {
     height: auto;
   }
+
+  
   .discount-sec {
     width: 100%;
     height: 522px;
@@ -183,6 +182,64 @@
         &:hover {
           background-color: rgb(105, 100, 94);
           //border-color: burlywood;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  .home{
+    overflow-x:hidden;
+    .filter{
+      height: 10px;
+      .breadcrumbs{
+        font-size: 40px;
+      }
+      .container1{
+        h1{
+          font-size: 30px;
+        }
+      }
+    }
+    .description1{
+      width: 100%;
+      //display: flex;
+      //justify-content: center;
+      
+      .container2{
+        display: flex;
+        flex-direction: column;
+        //background-color: antiquewhite;
+        padding-left: 0px;
+        
+        .item1{
+          width: 100%;
+          //background-color: aquamarine;
+          h2{
+            font-size: 22px;
+          }
+          p{
+            font-size: 19px;
+          }
+          .title1{
+            font-size: 20px;
+          }
+          button{
+            padding-left: 90px;
+            
+          }
+          .lootie{
+            display: none;
+          }
+
+        }
+      }
+    }
+    .discount-sec{
+      .lootie{display: none;}
+      .container2{
+        .item2{
+          //background-color: #555;
         }
       }
     }
