@@ -66,3 +66,25 @@
         }
     }
 }
+
+@media screen and (max-width: 480px){
+    .featured{
+        //justify-content: start;
+        .container{
+            width: 50%;
+            .left{
+                justify-content: start;
+                h1{
+                    padding-top: 130px;
+                    font-size: 63px;
+                    padding-left: 0;
+        }
+        h2{
+            padding-left: 0;
+            font-size: 23px;
+            //display: none;
+        }
+    }
+    }
+    }
+}

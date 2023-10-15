@@ -30,3 +30,19 @@
     font-size: 20px;
   }
 }
+@media screen and (max-width:480px) {
+  .ctitle{
+    padding-left: 60px;
+    //background-color: aquamarine;
+    width: 100%;
+    justify-content: space-between;
+    .btn1{
+      margin: 10px;
+      font-size: 18px;
+    }
+    .btn2{
+      margin: 10px;
+      font-size: 15px;
+    }
+  }
+}

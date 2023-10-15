@@ -46,3 +46,15 @@
     align-items: center;
   }
 }
+@media screen and (max-width:480px) {
+  .image-gallery{
+     
+    .thumbnail-grid{
+      width: 30%;
+      height: 82%;
+    }
+    .thumbnail-grid img{
+      width: 73%;
+    }
+  }
+}
