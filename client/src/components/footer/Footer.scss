@@ -64,3 +64,14 @@
       }
     }
   }
+  @media screen and (max-width:480px) {
+    .footer{
+      .container{
+        margin-left: 0px;
+        .top{
+          .item1{display: none;}
+          .item5{display: none;}
+        }
+      }
+    }
+  }

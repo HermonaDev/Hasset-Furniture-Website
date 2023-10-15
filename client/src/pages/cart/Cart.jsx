@@ -78,7 +78,7 @@ const Cart = () => {
           <div className="header">
             <button className="btn" onClick={handleClick}>
               <ArrowBackIos className="arrow1" />
-              Continue Shopping
+              <span className="spn">Continue Shopping</span>
             </button>
             <h1>Shopping Cart</h1>
             <Link to="/success">
@@ -94,7 +94,7 @@ const Cart = () => {
                 <table>
                   <thead>
                     <tr className="head">
-                      <th> ID</th>
+                      <th className="th"> ID</th>
                       <th>Image</th>
                       <th>Quantity</th>
                       <th>Price</th>
@@ -123,7 +123,7 @@ const Cart = () => {
                     ))}
                   </tbody>
                 </table>
-                <hr />
+                
               </div>
             </div>
             <div className="pay">
