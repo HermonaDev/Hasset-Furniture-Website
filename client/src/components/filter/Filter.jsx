@@ -21,7 +21,7 @@ const Filter = ({ categories }) => {
             <button className="btn1">{t("Bed.1")}</button>
           </Link>
           <Link to="/Table">
-            <button className="btn1">{t("DiningTable.1")}</button>
+            <button className="btn1">{t("Table.1")}</button>
           </Link>
           <Link to="/Chair">
             <button className="btn1">{t("Chair.1")}</button>
@@ -45,7 +45,7 @@ const Filter = ({ categories }) => {
             <button className="btn2">{t("Bed.1")}</button>
           </Link>
           <Link to="/Table">
-            <button className="btn1">{t("DiningTable.1")}</button>
+            <button className="btn1">{t("Table.1")}</button>
           </Link>
           <Link to="/Chair">
             <button className="btn1">{t("Chair.1")}</button>
@@ -69,7 +69,7 @@ const Filter = ({ categories }) => {
             <button className="btn1">{t("Bed.1")}</button>
           </Link>
           <Link to="/Table">
-            <button className="btn2">{t("DiningTable.1")}</button>
+            <button className="btn2">{t("Table.1")}</button>
           </Link>
           <Link to="/Chair">
             <button className="btn1">{t("Chair.1")}</button>
@@ -93,7 +93,7 @@ const Filter = ({ categories }) => {
             <button className="btn1">{t("Bed.1")}</button>
           </Link>
           <Link to="/Table">
-            <button className="btn1">{t("DiningTable.1")}</button>
+            <button className="btn1">{t("Table.1")}</button>
           </Link>
           <Link to="Chair">
             <button className="btn2">{t("Chair.1")}</button>
@@ -117,7 +117,7 @@ const Filter = ({ categories }) => {
             <button className="btn1">{t("Bed.1")}</button>
           </Link>
           <Link to="/Table">
-            <button className="btn1">{t("DiningTable.1")}</button>
+            <button className="btn1">{t("Table.1")}</button>
           </Link>
           <Link to="/Chair">
             <button className="btn1">{t("Chair.1")}</button>
@@ -141,7 +141,7 @@ const Filter = ({ categories }) => {
             <button className="btn1">{t("Bed.1")}</button>
           </Link>
           <Link to="/Table">
-            <button className="btn1">{t("DiningTable.1")}</button>
+            <button className="btn1">{t("Table.1")}</button>
           </Link>
           <Link to="/Chair">
             <button className="btn1">{t("Chair.1")}</button>

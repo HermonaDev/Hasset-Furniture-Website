@@ -7,7 +7,6 @@ import Product from "./pages/product/Product";
 import Explore from "./pages/explore/Explore";
 import Reviews from "./pages/reviews/Reviews";
 import Cart from "./pages/cart/Cart";
-import Checkout from "./pages/checkout/Checkout";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -118,10 +117,6 @@ function App() {
         {
           path: "/emptywishlist",
           element: <Empty_Wishlist />,
-        },
-        {
-          path: "/checkout",
-          element: !user ? <Navigate to="/register" replace /> : <Checkout />,
         },
         {
           path: "/discount",
