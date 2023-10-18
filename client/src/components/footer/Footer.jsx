@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="item2">
             <h1>{t("Categories.1")}</h1>
             <span>{t("Bed.1")}</span>
-            <span>{t("DiningTable.1")}</span>
+            <span>{t("Table.1")}</span>
             <span>{t("Sofa.1")}</span>
             <span>{t("Modern.1")}</span>
             <span>{t("Accessories.1")}</span>

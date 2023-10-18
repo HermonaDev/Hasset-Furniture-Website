@@ -14,8 +14,14 @@ const Slider = () => {
 
   return (
     <div className="slider">
-      <Link className="link" to="/gallery"><motion.h1 animate={{ x: 540 }}>Furniture Gallery</motion.h1></Link>
-      <motion.h2 animate={{ x: 600 }}>Anything you need is here</motion.h2>
+      <Link className="link" to="/gallery">
+        <motion.h1 animate={{ x: 540 }}>
+          <h1>Furniture Gallery</h1>
+        </motion.h1>
+      </Link>
+      <motion.h2 animate={{ x: 600 }}>
+        <p>Anything you need is here</p>
+      </motion.h2>
       <motion.div className="carousal" whileTap={{ cursor: "grabbing" }}>
         <motion.div
           drag="x"
