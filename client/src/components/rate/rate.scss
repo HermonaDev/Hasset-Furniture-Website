@@ -24,3 +24,24 @@
         margin-bottom: 70px;
     }
 }
+@media screen and (max-width: 480px) {
+    .rate-sec{
+        h2{
+            font-size: 22px;
+        }
+        .sec{
+            margin: 5px 0px;
+            button{
+            font-size: 20px;
+            padding: 0px 3px;
+            margin-right: 5px;
+        }
+    
+        }
+        p{
+            font-size: 20px;
+            margin-left: 60px;
+            margin-bottom: 70px;
+        }
+    }
+}
